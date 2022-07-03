@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sudoku.Controller">
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="800.0" stroke="BLACK" strokeType="INSIDE" width="1200.0">
+        <fill>
+            <LinearGradient>
+                <stops>
+                    <Stop>
+                        <color>
+                            <Color green="0.5166666507720947" blue="1.0" />
+                        </color>
+                    </Stop>
+                    <Stop offset="1.0">
+                        <color>
+                            <Color red="0.34210526943206787" green="0.34210526943206787" blue="0.34210526943206787" />
+                        </color>
+                    </Stop>
+                </stops>
+            </LinearGradient>
+        </fill></Rectangle>
+    <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="323.0" layoutY="10.0" prefHeight="131.0" prefWidth="555.0" text="SUDOKU" textAlignment="CENTER">
+        <font>
+            <Font name="Segoe Print" size="83.0" />
+        </font>
+        <textFill>
+            <LinearGradient>
+                <stops>
+                    <Stop>
+                        <color>
+                            <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                    </Stop>
+                    <Stop offset="1.0">
+                        <color>
+                            <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                    </Stop>
+                </stops>
+            </LinearGradient>
+        </textFill>
+    </Label>
+    <Circle fill="WHITE" layoutX="1148.0" layoutY="779.0" opacity="0.21" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle fill="WHITE" layoutX="801.0" layoutY="418.0" opacity="0.21" radius="42.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle fill="WHITE" layoutX="213.0" layoutY="83.0" opacity="0.21" radius="140.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle fill="WHITE" layoutX="642.0" layoutY="700.0" opacity="0.21" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle fill="WHITE" layoutX="74.0" layoutY="576.0" opacity="0.21" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle fill="WHITE" layoutX="1048.0" layoutY="253.0" opacity="0.21" radius="73.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle fill="WHITE" layoutX="232.0" layoutY="700.0" opacity="0.21" radius="86.0" stroke="BLACK" strokeType="INSIDE" />
+    <Text fill="#ffffff58" layoutX="852.0" layoutY="129.0" rotate="-45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" wrappingWidth="46.0">
+        <font>
+            <Font name="Bodoni MT Bold" size="87.0" />
+        </font>
+    </Text>
+    <Text fill="#ffffff58" layoutX="1043.0" layoutY="580.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8" wrappingWidth="9.46875">
+        <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+        </font>
+    </Text>
+    <Text fill="#ffffff58" layoutX="108.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" wrappingWidth="9.46875">
+        <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+        </font>
+    </Text>
+    <Text fill="#ffffff58" layoutX="870.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" wrappingWidth="9.46875">
+        <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+        </font>
+    </Text>
+    <Text fill="#ffffff58" layoutX="754.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" wrappingWidth="9.46875">
+        <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+        </font>
+    </Text>
+    <Text fill="#ffffff58" layoutX="313.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" wrappingWidth="9.46875">
+        <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+        </font>
+    </Text>
+    <Text fill="#ffffff58" layoutX="383.0" layoutY="212.0" rotate="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" wrappingWidth="9.46875">
+        <font>
+            <Font name="Bodoni MT Bold" size="59.0" />
+        </font>
+    </Text>
+    <Text fill="#ffffff58" layoutX="332.0" layoutY="629.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" wrappingWidth="9.46875">
+        <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+        </font>
+    </Text>
+   <Rectangle arcHeight="5.0" fill="WHITE" height="522.0" layoutX="234.0" layoutY="223.0" opacity="0.87" stroke="#525c8d" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="10.0" width="734.0" />
+   <TextArea editable="false" layoutX="234.0" layoutY="223.0" prefHeight="522.0" prefWidth="734.0" promptText="rules" text="&#10;Rule 1 - Each row must contain the numbers from 1 to 9, without repetitions&#10;The player must focus on filling each row of the grid while ensuring there are no duplicated numbers.&#10;The placement order of the digits is irrelevant.&#10;Every puzzle, regardless of the difficulty level, begins with allocated numbers on the grid. The player should use these numbers as clues to find which digits are missing in each row.&#10;&#10;&#10;Rule 2 - Each column must contain the numbers from 1 to 9, without repetitions&#10;The Sudoku rules for the columns on the grid are exactly the same as for the rows. The player must also fill these with the numbers from 1 to 9, making sure each digit occurs only once per column.&#10;The numbers allocated at the beginning of the puzzle work as clues to find which digits are missing in each column and their position.&#10;&#10;&#10;Rule 3 - The digits can only occur once per block (nonet)&#10;A regular 9 x 9 grid is divided into 9 smaller blocks of 3 x 3, also known as nonets. The numbers from 1 to 9 can only occur once per nonet.&#10;" wrapText="true">
+      <font>
+         <Font name="Serif Bold" size="18.0" />
+      </font>
+   </TextArea>
+   <Button fx:id="back" layoutX="531.0" layoutY="748.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="35.0" prefWidth="139.0" text="Back">
+      <font>
+         <Font name="Serif Bold" size="27.0" />
+      </font>
+   </Button>
+
+</AnchorPane>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1200.0" maxWidth="800.0" minHeight="800.0" minWidth="1200.0" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sudoku.Controller">
+   <Rectangle arcHeight="5.0" arcWidth="5.0" height="800.0" layoutX="801.0" stroke="BLACK" strokeType="INSIDE" width="400.0">
+      <fill>
+         <LinearGradient>
+            <stops>
+               <Stop>
+                  <color>
+                     <Color green="0.5176470875740051" blue="1.0" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="0.34210526943206787" green="0.34210526943206787" blue="0.34210526943206787" />
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </fill></Rectangle>
+   <Label fx:id="sudoku" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="797.0" layoutY="10.0" prefHeight="84.0" prefWidth="400.0" text="SUDOKU" textAlignment="CENTER">
+      <font>
+         <Font name="Segoe Print" size="83.0" />
+      </font>
+      <textFill>
+         <LinearGradient>
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </textFill>
+   </Label>
+   <Circle fill="WHITE" layoutX="1100.0" layoutY="700.0" opacity="0.21" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fill="WHITE" layoutX="970.0" layoutY="442.0" opacity="0.21" radius="42.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fill="WHITE" layoutX="848.0" layoutY="484.0" opacity="0.21" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fill="WHITE" layoutX="1048.0" layoutY="253.0" opacity="0.21" radius="73.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fill="WHITE" layoutX="884.0" layoutY="821.0" opacity="0.21" radius="86.0" stroke="BLACK" strokeType="INSIDE" />
+   <Text fill="#ffffff58" layoutX="839.0" layoutY="197.0" rotate="-45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" wrappingWidth="46.0">
+      <font>
+         <Font name="Bodoni MT Bold" size="87.0" />
+      </font>
+   </Text>
+   <Text fill="#ffffff58" layoutX="1043.0" layoutY="580.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8" wrappingWidth="9.46875">
+      <font>
+         <Font name="Bodoni MT Bold" size="48.0" />
+      </font>
+   </Text>
+   <Text fill="#ffffff58" layoutX="825.0" layoutY="721.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" wrappingWidth="9.46875">
+      <font>
+         <Font name="Bodoni MT Bold" size="48.0" />
+      </font>
+   </Text>
+   <Text fill="#ffffff58" layoutX="870.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" wrappingWidth="9.46875">
+      <font>
+         <Font name="Bodoni MT Bold" size="48.0" />
+      </font>
+   </Text>
+   <Text fill="#ffffff58" layoutX="879.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" wrappingWidth="9.46875">
+      <font>
+         <Font name="Bodoni MT Bold" size="48.0" />
+      </font>
+   </Text>
+   <Text fill="#ffffff58" layoutX="1130.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" wrappingWidth="9.46875">
+      <font>
+         <Font name="Bodoni MT Bold" size="48.0" />
+      </font>
+   </Text>
+   <Text fill="#ffffff58" layoutX="1135.0" layoutY="224.0" rotate="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" wrappingWidth="9.46875">
+      <font>
+         <Font name="Bodoni MT Bold" size="59.0" />
+      </font>
+   </Text>
+   <Text fill="#ffffff58" layoutX="1061.0" layoutY="688.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" wrappingWidth="9.46875">
+      <font>
+         <Font name="Bodoni MT Bold" size="48.0" />
+      </font>
+   </Text>
+   <Rectangle arcHeight="5.0" arcWidth="5.0" height="800.0" stroke="BLACK" strokeType="INSIDE" width="807.0">
+      <fill>
+         <LinearGradient>
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="0.31578946113586426" green="0.31578946113586426" blue="0.31578946113586426" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color green="0.5176470875740051" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </fill>
+   </Rectangle>
+   <fx:include fx:id="gameBoard" source="gameBoard.fxml" translateX="150.0" translateY="50.0" />
+
+   <Label fx:id="header" contentDisplay="CENTER" layoutX="190.0" layoutY="27.0" prefHeight="89.0" prefWidth="427.0" textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font name="Segoe Print" size="50.0" />
+      </font>
+   </Label>
+   <Button layoutX="184.0" layoutY="665.0" mnemonicParsing="false" onAction="#onCheckClick" prefHeight="57.0" prefWidth="133.0" style="-fx-border-radius: 100%;" text="Check">
+      <font>
+         <Font name="Serif Bold" size="27.0" />
+      </font>
+   </Button>
+   <Button layoutX="493.0" layoutY="665.0" mnemonicParsing="false" onAction="#newOnAction" prefHeight="57.0" prefWidth="133.0" style="-fx-border-radius: 100%;" text="New">
+      <font>
+         <Font name="Serif Bold" size="27.0" />
+      </font>
+   </Button>
+
+   <Button layoutX="935.0" layoutY="665.0" mnemonicParsing="false" onAction="#exitOnClick" prefHeight="57.0" prefWidth="133.0" style="-fx-border-radius: 100%;" text="Exit">
+      <font>
+         <Font name="Serif Bold" size="27.0" />
+      </font>
+   </Button>
+   <Button layoutX="935.0" layoutY="566.0" mnemonicParsing="false" onAction="#rulesOnClick" prefHeight="57.0" prefWidth="133.0" style="-fx-border-radius: 100%;" text="Rules">
+      <font>
+         <Font name="Serif Bold" size="27.0" />
+      </font>
+   </Button>
+</AnchorPane>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="1200.0" maxWidth="800.0" minHeight="494.0" minWidth="515.0" prefHeight="494.0" prefWidth="515.0"
+            xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.sudoku.model">
+    <TextField fx:id="textField00" alignment="CENTER" layoutX="32.0" layoutY="26.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField01" alignment="CENTER" layoutX="80.0" layoutY="26.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField02" alignment="CENTER" layoutX="128.0" layoutY="26.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField03" alignment="CENTER" layoutX="187.0" layoutY="26.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField04" alignment="CENTER" layoutX="235.0" layoutY="26.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField05" alignment="CENTER" layoutX="283.0" layoutY="26.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField06" alignment="CENTER" layoutX="341.0" layoutY="26.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField07" alignment="CENTER" layoutX="389.0" layoutY="26.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField08" alignment="CENTER" layoutX="437.0" layoutY="26.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField10" alignment="CENTER" layoutX="32.0" layoutY="74.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField11" alignment="CENTER" layoutX="80.0" layoutY="74.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField12" alignment="CENTER" layoutX="128.0" layoutY="74.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField13" alignment="CENTER" layoutX="187.0" layoutY="74.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField14" alignment="CENTER" layoutX="235.0" layoutY="74.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField15" alignment="CENTER" layoutX="283.0" layoutY="74.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField16" alignment="CENTER" layoutX="341.0" layoutY="74.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField17" alignment="CENTER" layoutX="389.0" layoutY="74.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField18" alignment="CENTER" layoutX="437.0" layoutY="74.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField20" alignment="CENTER" layoutX="32.0" layoutY="122.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField21" alignment="CENTER" layoutX="80.0" layoutY="122.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField22" alignment="CENTER" layoutX="128.0" layoutY="122.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField23" alignment="CENTER" layoutX="187.0" layoutY="122.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField24" alignment="CENTER" layoutX="235.0" layoutY="122.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField25" alignment="CENTER" layoutX="283.0" layoutY="122.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField26" alignment="CENTER" layoutX="341.0" layoutY="122.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField27" alignment="CENTER" layoutX="389.0" layoutY="122.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField28" alignment="CENTER" layoutX="437.0" layoutY="122.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField30" alignment="CENTER" layoutX="33.0" layoutY="183.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField31" alignment="CENTER" layoutX="81.0" layoutY="183.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField32" alignment="CENTER" layoutX="129.0" layoutY="183.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField33" alignment="CENTER" layoutX="188.0" layoutY="183.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField34" alignment="CENTER" layoutX="236.0" layoutY="183.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField35" alignment="CENTER" layoutX="284.0" layoutY="183.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField36" alignment="CENTER" layoutX="342.0" layoutY="183.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField37" alignment="CENTER" layoutX="390.0" layoutY="183.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField38" alignment="CENTER" layoutX="438.0" layoutY="183.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField40" alignment="CENTER" layoutX="33.0" layoutY="231.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField41" alignment="CENTER" layoutX="81.0" layoutY="231.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField42" alignment="CENTER" layoutX="129.0" layoutY="231.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField43" alignment="CENTER" layoutX="188.0" layoutY="231.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField44" alignment="CENTER" layoutX="236.0" layoutY="231.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField45" alignment="CENTER" layoutX="284.0" layoutY="231.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField46" alignment="CENTER" layoutX="342.0" layoutY="231.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField47" alignment="CENTER" layoutX="390.0" layoutY="231.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField48" alignment="CENTER" layoutX="438.0" layoutY="231.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField50" alignment="CENTER" layoutX="33.0" layoutY="279.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField51" alignment="CENTER" layoutX="81.0" layoutY="279.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField52" alignment="CENTER" layoutX="129.0" layoutY="279.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField53" alignment="CENTER" layoutX="188.0" layoutY="279.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField54" alignment="CENTER" layoutX="236.0" layoutY="279.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField55" alignment="CENTER" layoutX="284.0" layoutY="279.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField56" alignment="CENTER" layoutX="342.0" layoutY="279.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField57" alignment="CENTER" layoutX="390.0" layoutY="279.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField58" alignment="CENTER" layoutX="438.0" layoutY="279.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField60" alignment="CENTER" layoutX="34.0" layoutY="332.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField61" alignment="CENTER" layoutX="82.0" layoutY="332.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField62" alignment="CENTER" layoutX="130.0" layoutY="332.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField63" alignment="CENTER" layoutX="189.0" layoutY="332.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField64" alignment="CENTER" layoutX="237.0" layoutY="332.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField65" alignment="CENTER" layoutX="285.0" layoutY="332.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField66" alignment="CENTER" layoutX="343.0" layoutY="332.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField67" alignment="CENTER" layoutX="391.0" layoutY="332.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField68" alignment="CENTER" layoutX="439.0" layoutY="332.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField70" alignment="CENTER" layoutX="34.0" layoutY="380.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField71" alignment="CENTER" layoutX="82.0" layoutY="380.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField72" alignment="CENTER" layoutX="130.0" layoutY="380.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField73" alignment="CENTER" layoutX="189.0" layoutY="380.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField74" alignment="CENTER" layoutX="237.0" layoutY="380.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField75" alignment="CENTER" layoutX="285.0" layoutY="380.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField76" alignment="CENTER" layoutX="343.0" layoutY="380.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField77" alignment="CENTER" layoutX="391.0" layoutY="380.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField78" alignment="CENTER" layoutX="439.0" layoutY="380.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField80" alignment="CENTER" layoutX="34.0" layoutY="428.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField81" alignment="CENTER" layoutX="82.0" layoutY="428.0" prefHeight="46.0" prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField82" alignment="CENTER" layoutX="130.0" layoutY="428.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField83" alignment="CENTER" layoutX="189.0" layoutY="428.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField84" alignment="CENTER" layoutX="237.0" layoutY="428.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField85" alignment="CENTER" layoutX="285.0" layoutY="428.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField86" alignment="CENTER" layoutX="343.0" layoutY="428.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField87" alignment="CENTER" layoutX="391.0" layoutY="428.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+    <TextField fx:id="textField88" alignment="CENTER" layoutX="439.0" layoutY="428.0" prefHeight="46.0"
+               prefWidth="46.0">
+        <font>
+          <Font name="Bodoni MT" size="20.0"/>
+        </font>
+    </TextField>
+</AnchorPane>
